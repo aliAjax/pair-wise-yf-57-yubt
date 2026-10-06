@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "taro build --type h5 --watch",
     "build": "taro build --type h5",
-    "start": "taro build --type h5 --watch"
+    "start": "taro build --type h5 --watch",
+    "test:sync": "node scripts/sync.test.cjs",
+    "demo:sync": "node scripts/demo.cjs"
   },
   "dependencies": {
     "@nutui/nutui-react-taro": "^3.0.17",
